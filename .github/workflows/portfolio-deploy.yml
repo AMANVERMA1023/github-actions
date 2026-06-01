@@ -23,7 +23,7 @@ jobs:
             # gst access to your portfolio code via pre-buid actions
             # STEP 1
             - name: chechout code
-              uses: actions/chechout@v4
+              uses: actions/checkout@v4
             # steup github pages
             # STEP 2
             - name: setup github pages
